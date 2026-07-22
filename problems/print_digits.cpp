@@ -12,5 +12,6 @@ void printDigits(int n){
 int main(){
     int n = 3568;
     printDigits(n);
+    cout << (int)(log10(n) + 1) << endl; // shortcut of digits
     return 0;
 }
